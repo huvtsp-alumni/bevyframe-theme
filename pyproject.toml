@@ -1,0 +1,16 @@
+[project]
+name = "hereus_ui_3_2"
+version = "0.1.0"
+description = "HereUS UI 3.2 for BevyFrame"
+readme = "README.md"
+license = {text = "Creative Commons Attribution ShareAlike 4.0"}
+maintainers = []
+requires-python = ">= 3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://ui.hereus.net/"
+
+[build-system]
+requires = ["setuptools","wheel"]
+build-backend = "setuptools.build_meta"
