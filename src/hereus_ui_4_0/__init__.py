@@ -74,11 +74,6 @@ class Button:
     font_family = ["DM Sans", "sans-serif"]
     css = {'box-shadow': '0px 0px 30px #8080801A'}
 
-    class Small:
-        border_radius = Size.pixel(10)
-        width = Size.pixel(150)
-        height = Size.pixel(50)
-
     class Hover:
         outline = NoStyle
         css = {"box-shadow": "inset 0 0 100px 100px #FFFFFF60"}
@@ -100,12 +95,18 @@ class Button:
             background_color = palette["Green"]["AccentColor"]
 
         class Blue:
-            background_color = palette["Blank"]["AccentColor"]
+            background_color = palette["Blue"]["AccentColor"]
 
         class Pink:
             background_color = palette["Pink"]["AccentColor"]
 
     DarkTheme = LightTheme
+
+
+class SmallButton:
+    border_radius = Size.pixel(10)
+    width = Size.pixel(150)
+    height = Size.pixel(50)
 
 
 class MiniButton:
@@ -175,7 +176,7 @@ class Page:
 
         class Blue:
             background_image = palette["Blue"]["LightBackground"]
-            accent_color = palette["Blank"]["AccentColor"]
+            accent_color = palette["Blue"]["AccentColor"]
 
         class Pink:
             background_image = palette["Pink"]["LightBackground"]
@@ -206,7 +207,7 @@ class Page:
 
         class Blue:
             background_image = palette["Blue"]["DarkBackground"]
-            accent_color = palette["Blank"]["AccentColor"]
+            accent_color = palette["Blue"]["AccentColor"]
 
         class Pink:
             background_image = palette["Pink"]["DarkBackground"]
@@ -222,6 +223,9 @@ class Box:
         left=Size.pixel(15),
         right=Size.pixel(15)
     )
+    css = {
+        'backdrop-filter': 'blur(10px)'
+    }
 
     class LightTheme:
         background_color = palette["Light"]["WidgetColor"]
