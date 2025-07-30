@@ -1,3 +1,3 @@
-# hereus_ui_3_2
+# hereus_ui_4_0
 
-HereUS UI 3.2 for BevyFrame
+HereUS UI 4.0 for BevyFrame
