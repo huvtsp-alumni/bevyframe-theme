@@ -1,3 +1,3 @@
-# hereus_ui_4_0
+# huvtsp_alumni_theme
 
-HereUS UI 4.0 for BevyFrame
+huvtsp_alumni_theme for BevyFrame

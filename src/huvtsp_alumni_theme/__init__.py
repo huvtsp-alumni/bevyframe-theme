@@ -1,5 +1,5 @@
 from bevyframe.Widgets.Style import *
-from hereus_ui_4_0.palette import palette
+from huvtsp_alumni_theme.palette import palette
 
 imports = [
     "https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@700&display=swap",
