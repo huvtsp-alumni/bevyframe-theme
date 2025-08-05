@@ -14,6 +14,16 @@ webkit = {
     }
 }
 
+css = """
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' -25,
+  'opsz' 30
+}
+"""
+
 
 class Label:
     class Hover:
