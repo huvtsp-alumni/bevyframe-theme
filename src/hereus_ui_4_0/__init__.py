@@ -60,6 +60,7 @@ class Textbox:
         left=Size.pixel(10),
         right=Size.pixel(10)
     )
+    css = {'backdrop-filter': 'blur(10px)'}
 
     class LightTheme:
         background_color = palette["Light"]["SubWidgetColor"]
@@ -82,7 +83,10 @@ class Button:
     font_size = Size.pixel(20)
     cursor = Cursor.pointer
     font_family = ["DM Sans", "sans-serif"]
-    css = {'box-shadow': '0px 0px 30px #8080801A'}
+    css = {
+        'box-shadow': '0px 0px 30px #8080801A',
+        'backdrop-filter': 'blur(10px)'
+    }
 
     class Hover:
         outline = NoStyle
@@ -233,9 +237,7 @@ class Box:
         left=Size.pixel(15),
         right=Size.pixel(15)
     )
-    css = {
-        'backdrop-filter': 'blur(10px)'
-    }
+    css = {'backdrop-filter': 'blur(10px)'}
 
     class LightTheme:
         background_color = palette["Light"]["WidgetColor"]
