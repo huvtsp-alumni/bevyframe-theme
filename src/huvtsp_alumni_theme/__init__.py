@@ -1,5 +1,6 @@
 from bevyframe.Widgets.Style import *
 from huvtsp_alumni_theme.palette import palette
+from huvtsp_alumni_theme.extra_css import css as extra_css
 
 imports = [
     "https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@700&display=swap",
@@ -22,7 +23,7 @@ css = """
   'GRAD' -25,
   'opsz' 30
 }
-"""
+""" + extra_css
 
 
 class Label:
